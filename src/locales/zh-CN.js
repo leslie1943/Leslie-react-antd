@@ -54,6 +54,9 @@ export default {
   // Antd
   'menu.antd': 'Antd demos',
   'menu.antd.mention': 'Antd mention',
+  'menu.antd.grid': 'Antd grid',
+  'menu.antd.layout': 'Antd layout',
+
   // -------------- the code of Leslie demo.
   // 'menu.demo': 'Demo',
   // 'menu.demo.products': 'Demo-物品',

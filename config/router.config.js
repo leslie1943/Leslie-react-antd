@@ -146,6 +146,18 @@ export default [
             icon: 'paper-clip',
             component: './Antd/MentionDemo',
           },
+          {
+            path: '/antd/grid',
+            name: 'grid',
+            icon: 'paper-clip',
+            component: './Antd/GridDemo',
+          },
+          {
+            path: '/antd/layout',
+            name: 'layout',
+            icon: 'paper-clip',
+            component: './Antd/LayoutDemo',
+          },
         ],
       },
       // forms

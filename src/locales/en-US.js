@@ -53,6 +53,9 @@ export default {
   // Antd
   'menu.antd': 'Antd demos',
   'menu.antd.mention': 'Antd mention',
+  'menu.antd.grid': 'Antd grid',
+  'menu.antd.layout': 'Antd layout',
+
   //
   'app.home.introduce': 'introduce',
   'app.analysis.test': 'Gongzhuan No.{no} shop',
