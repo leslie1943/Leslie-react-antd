@@ -56,7 +56,8 @@ export default {
   'menu.antd.grid': 'Antd grid',
   'menu.antd.layout': 'Antd layout',
   'menu.antd.breadcrumb': 'Antd breadcrumb',
-  
+  'menu.antd.dropdown': 'Antd dropdown',
+
 
   //
   'app.home.introduce': 'introduce',
