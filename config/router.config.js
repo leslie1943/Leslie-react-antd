@@ -158,6 +158,18 @@ export default [
             icon: 'paper-clip',
             component: './Antd/LayoutDemo',
           },
+          {
+            path: '/antd/breadcrumb',
+            name: 'breadcrumb',
+            icon: 'paper-clip',
+            component: './Antd/BreadCrumbDemo',
+          },
+          {
+            path: '/antd/dropdown',
+            name: 'dropdown',
+            icon: 'paper-clip',
+            component: './Antd/DropdownDemo',
+          },
         ],
       },
       // forms

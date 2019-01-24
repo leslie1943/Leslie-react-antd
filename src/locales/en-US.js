@@ -55,6 +55,8 @@ export default {
   'menu.antd.mention': 'Antd mention',
   'menu.antd.grid': 'Antd grid',
   'menu.antd.layout': 'Antd layout',
+  'menu.antd.breadcrumb': 'Antd breadcrumb',
+  
 
   //
   'app.home.introduce': 'introduce',

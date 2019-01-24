@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'dva';
+import PageHeaderWrapper from '@/components/PageHeaderWrapper';
 import { Row,Col,Form,Layout,Divider, Menu, Icon, Affix,Button} from 'antd';
 import styles from './LayoutDemo.less';
 
@@ -23,7 +24,7 @@ class LayoutDemo extends Component{
 
     render(){
         return(
-            <div>
+            <PageHeaderWrapper title="Antd demo - Layout" content="Layout">
                 <Affix offsetTop={this.state.top}>
                     <Button type="primary" onClick={()=>this.setState({top:this.state.top+10})}>We have Affix in this page...</Button>
                 </Affix>
@@ -107,10 +108,7 @@ class LayoutDemo extends Component{
                         </Content>
                     </Layout>
                 </Layout>
-                
-               
-                
-            </div>
+           </PageHeaderWrapper>
         )
     }
 }
