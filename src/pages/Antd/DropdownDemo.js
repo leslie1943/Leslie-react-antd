@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
 import { connect } from 'dva';
-import { Form,Menu,Dropdown,Icon,message} from 'antd';
+import { Form,Menu,Dropdown,Icon,message, Divider} from 'antd';
 import PageHeaderWrapper from '@/components/PageHeaderWrapper';
 
 @Form.create()
 class DropdownDemo extends Component{
+    constructor(){
+        super();
+        this.state = {visible: true}
+    }
     // Handler
     handleMenuClick = (val) =>{
         message.success(val.key);
     }
+
     render(){
         // 也可以在这里定义 Menu
         const menu = (
@@ -19,17 +24,34 @@ class DropdownDemo extends Component{
                 <Menu.Divider></Menu.Divider>
                 <Menu.Item key="suzhen 1"><Icon type="user" />1st menu item</Menu.Item>
                 <Menu.Item key="suzhen 2"><Icon type="user" />2nd menu item</Menu.Item>
-                <Menu.Item key="suzhen 3"><Icon type="user" />3rd item</Menu.Item>
-          
+                <Menu.Item  disabled key="suzhen 3"><Icon type="user" />3rd item</Menu.Item>
             </Menu>
         );
         return(
             <PageHeaderWrapper>
+                <Divider></Divider>
                 <div style={{textAlign:'center'}}>
                     {/* placement: bottomLeft,bottomCenter,bottomRight,topLeft,topCenter,topRight */}
                 <Dropdown overlay={menu} placement="topCenter">
                 <a className="ant-dropdown-link" href="#">
                 Hover me <Icon type="down"></Icon>
+                </a>
+                </Dropdown>
+                
+                <Divider></Divider>
+
+                <Dropdown overlay={menu} placement="topCenter" trigger={['contextMenu']}>
+                <a className="ant-dropdown-link" href="#">
+                Rigth Click on me <Icon type="down"></Icon>
+                </a>
+                </Dropdown>
+
+               <Divider></Divider>
+
+                <Dropdown
+                 overlay={menu} placement="bottomCenter" trigger={['click']}>
+                <a className="ant-dropdown-link" href="#">
+                 Click on me <Icon type="down"></Icon>
                 </a>
                 </Dropdown>
                </div>

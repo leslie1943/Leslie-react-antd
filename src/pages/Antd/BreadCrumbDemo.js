@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'dva';
+import moment from 'moment';
 import { Form,Breadcrumb,Icon,Alert} from 'antd';
 import styles from './BreadCrumbDemo.less';
 import PageHeaderWrapper from '@/components/PageHeaderWrapper';
@@ -17,6 +18,9 @@ class BreadCrumbDemo extends Component{
                     <Breadcrumb.Item><a href="">Application List</a></Breadcrumb.Item>
                     <Breadcrumb.Item>An Application</Breadcrumb.Item>
                 </Breadcrumb>
+                {/* <div>
+                    { (moment('2019-01-22 09:12:11').isSameOrBefore(moment(new Date(),'YYYY-MM-DD HH:mm:ss'))) == true ? '1':'2'}
+                </div> */}
             </PageHeaderWrapper>
         )
     }

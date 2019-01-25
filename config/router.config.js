@@ -170,6 +170,12 @@ export default [
             icon: 'paper-clip',
             component: './Antd/DropdownDemo',
           },
+          {
+            path: '/antd/menu',
+            name: 'menu',
+            icon: 'paper-clip',
+            component: './Antd/MenuDemo',
+          },
         ],
       },
       // forms
