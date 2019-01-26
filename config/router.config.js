@@ -176,6 +176,12 @@ export default [
             icon: 'paper-clip',
             component: './Antd/MenuDemo',
           },
+          {
+            path: '/antd/pagination',
+            name: 'pagination',
+            icon: 'paper-clip',
+            component: './Antd/PaginationDemo',
+          },
         ],
       },
       // forms

@@ -59,6 +59,7 @@ export default {
   'menu.antd.breadcrumb': 'Antd breadcrumb',
   'menu.antd.dropdown': 'Antd dropdown',
   'menu.antd.menu': 'Antd menu',
+  'menu.antd.pagination': 'Antd pagination',
 
   // -------------- the code of Leslie demo.
   // 'menu.demo': 'Demo',
