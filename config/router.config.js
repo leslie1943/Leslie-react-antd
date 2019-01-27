@@ -182,6 +182,12 @@ export default [
             icon: 'paper-clip',
             component: './Antd/PaginationDemo',
           },
+          {
+            path: '/antd/step',
+            name: 'step',
+            icon: 'paper-clip',
+            component: './Antd/StepDemo',
+          },
         ],
       },
       // forms

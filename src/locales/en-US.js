@@ -59,6 +59,7 @@ export default {
   'menu.antd.dropdown': 'Antd dropdown',
   'menu.antd.menu': 'Antd menu',
   'menu.antd.pagination': 'Antd pagination',
+  'menu.antd.step': 'Antd step',
 
 
   //
