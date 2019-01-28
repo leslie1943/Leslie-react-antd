@@ -133,8 +133,7 @@ export default [
           },
         ],
       },
-      //antd pro
-      // jenkins
+      // antd pro
       {
         path: '/antd',
         name: 'antd',
@@ -187,6 +186,12 @@ export default [
             name: 'step',
             icon: 'paper-clip',
             component: './Antd/StepDemo',
+          },
+          {
+            path: '/antd/auto-complete',
+            name: 'autoComplete',
+            icon: 'paper-clip',
+            component: './Antd/AutoCompleteDemo',
           },
         ],
       },

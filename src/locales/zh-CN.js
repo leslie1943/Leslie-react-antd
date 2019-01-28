@@ -61,7 +61,7 @@ export default {
   'menu.antd.menu': 'Antd menu',
   'menu.antd.pagination': 'Antd pagination',
   'menu.antd.step': 'Antd step',
-
+  'menu.antd.autoComplete': 'Antd auto complete',
 
   // -------------- the code of Leslie demo.
   // 'menu.demo': 'Demo',
