@@ -108,10 +108,10 @@ export default class SiderMenu extends PureComponent {
         className={siderClassName}
       >
         <div className={styles.logo} id="logo">
-          <Link to="/">
+          <Link to="/antd/mention">
             <img src={logo} alt="logo" />
             {/* <h1>Ant Design Pro</h1> */}
-            <h1>Happy Merge</h1>
+            <h1>Antd Demos</h1>
           </Link>
         </div>
         <BaseMenu

@@ -100,6 +100,7 @@ class CascaderDemo extends Component {
 
   loadData = (selectedOptions) => {
     const targetOption = selectedOptions[selectedOptions.length - 1]
+    console.info(targetOption);
     targetOption.loading = true;
     setTimeout(() => {
       targetOption.loading = false;
@@ -109,6 +110,9 @@ class CascaderDemo extends Component {
       }, {
         label: `${targetOption.label} Dynamic 2`,
         value: 'Dynamic 2'
+      }, {
+        label: `${targetOption.label} Dynamic 3`,
+        value: 'Dynamic 3'
       }];
       this.setState({
         options: this.state.options
@@ -133,6 +137,7 @@ class CascaderDemo extends Component {
           options={this.state.options}
           loadData={this.loadData}
           changeOnSelect
+          onChange={this.onChange}
         >
         </Cascader>
       </PageHeaderWrapper>

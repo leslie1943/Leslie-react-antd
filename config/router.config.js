@@ -19,7 +19,8 @@ export default [
     routes: [
       // dashboard
       // { path: '/', redirect: '/dashboard/analysis' },
-      { path: '/', redirect: '/publish/send-mr' },
+      // { path: '/', redirect: '/publish/send-mr' },
+      { path: '/', redirect: '/antd/mention' },
       // {
       //   path: '/dashboard',
       //   name: 'dashboard',
