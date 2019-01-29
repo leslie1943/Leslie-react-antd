@@ -62,6 +62,8 @@ export default {
   'menu.antd.pagination': 'Antd pagination',
   'menu.antd.step': 'Antd step',
   'menu.antd.autoComplete': 'Antd auto complete',
+  'menu.antd.checkbox': 'Antd checkbox',
+  'menu.antd.cascader': 'Antd cascader',
 
   // -------------- the code of Leslie demo.
   // 'menu.demo': 'Demo',

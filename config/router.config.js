@@ -118,7 +118,7 @@ export default [
         path: '/jenkins',
         name: 'jenkins',
         icon: 'deployment-unit',
-        routes:[
+        routes: [
           {
             path: '/jenkins/auth',
             name: 'auth',
@@ -138,7 +138,7 @@ export default [
         path: '/antd',
         name: 'antd',
         icon: 'ant-design',
-        routes:[
+        routes: [
           {
             path: '/antd/mention',
             name: 'mention',
@@ -193,6 +193,18 @@ export default [
             icon: 'paper-clip',
             component: './Antd/AutoCompleteDemo',
           },
+          {
+            path: '/antd/checkbox',
+            name: 'checkbox',
+            icon: 'paper-clip',
+            component: './Antd/CheckboxDemo',
+          },
+          {
+            path: 'antd/cascader',
+            name: 'cascader',
+            icon: 'play-circle',
+            component: './Antd/CascaderDemo',
+          }
         ],
       },
       // forms

@@ -49,7 +49,7 @@ export default {
   'menu.jenkins': 'Jenkins - action',
   'menu.jenkins.auth': 'Jenkins- auth',
   'menu.jenkins.job': 'Jenkins- job',
-  
+
   // Antd
   'menu.antd': 'Antd demos',
   'menu.antd.mention': 'Antd mention',
@@ -61,6 +61,8 @@ export default {
   'menu.antd.pagination': 'Antd pagination',
   'menu.antd.step': 'Antd step',
   'menu.antd.autoComplete': 'Antd auto complete',
+  'menu.antd.checkbox': 'Antd checkbox',
+  'menu.antd.cascader': 'Antd cascader',
 
   //
   'app.home.introduce': 'introduce',
