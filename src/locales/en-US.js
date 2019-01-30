@@ -63,6 +63,7 @@ export default {
   'menu.antd.autoComplete': 'Antd auto complete',
   'menu.antd.checkbox': 'Antd checkbox',
   'menu.antd.cascader': 'Antd cascader',
+  'menu.antd.datepicker': 'Antd date picker',
 
   //
   'app.home.introduce': 'introduce',

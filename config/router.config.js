@@ -205,6 +205,12 @@ export default [
             name: 'cascader',
             icon: 'play-circle',
             component: './Antd/CascaderDemo',
+          },
+          {
+            path: 'antd/date-picker',
+            name: 'datepicker',
+            icon: 'play-circle',
+            component: './Antd/DatePickerDemo',
           }
         ],
       },
