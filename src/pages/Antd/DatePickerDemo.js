@@ -52,7 +52,7 @@ class DatePickerDemo extends Component {
   render() {
     return (
       <PageHeaderWrapper title="Antd demo - date picker" content="date picker">
-        <DatePicker size="large" onChange={this.firstChange} format={dateFormat}></DatePicker><br /><br />
+        <DatePicker showTime size="large" onChange={this.firstChange} format={dateFormat}></DatePicker><br /><br />
         <DatePicker onChange={this.firstChange}
           dateRender={(current => {
             const style = {}
