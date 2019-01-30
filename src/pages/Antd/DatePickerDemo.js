@@ -6,10 +6,11 @@ import MainControlled from './components/MainControlled';
 const { MonthPicker, RangePicker, WeekPicker } = DatePicker;
 const dateFormat = "YYYY/MM/DD"
 import moment from 'moment'
-@Form.create()
+
 class DatePickerDemo extends Component {
   constructor(props) {
     super(props)
+    console.info('this.props.form');
     console.info(this.props.form);
   }
 
@@ -98,5 +99,14 @@ class DatePickerDemo extends Component {
     )
   }
 }
+/* 
+  Form.create装饰器的第二种用法. 🚀🚀🚀
+        const WrappedClass = Form.create()(OrignalClass)
 
-export default DatePickerDemo
+  Form.create装饰器的第一种用法. 🚀🚀🚀
+        @Form.create()
+        class OrignalClass extends Component{
+        }
+ */
+const _DatePickerDemo = Form.create()(DatePickerDemo)
+export default _DatePickerDemo
