@@ -252,6 +252,30 @@ export default [
             icon: 'bulb',
             component: './AntdForms/ValidateForm',
           },
+          {
+            path: '/forms/related',
+            name: 'related',
+            icon: 'bulb',
+            component: './AntdForms/RelatedForm',
+          },
+          {
+            path: '/forms/layout',
+            name: 'layout',
+            icon: 'layout',
+            component: './AntdForms/LayoutForm',
+          },
+          {
+            path: '/forms/rules',
+            name: 'rules',
+            icon: 'layout',
+            component: './AntdForms/RulesForm',
+          },
+          {
+            path: '/forms/real',
+            name: 'real',
+            icon: 'form',
+            component: './AntdForms/RealForm',
+          },
         ],
       },
       // system

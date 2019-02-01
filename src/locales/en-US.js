@@ -77,7 +77,10 @@ export default {
   'menu.forms.custom': 'Custom form',
   'menu.forms.raw': 'Raw form',
   'menu.forms.validate': 'Validate form',
-
+  'menu.forms.related': 'Related form',
+  'menu.forms.layout': 'Layout form',
+  'menu.forms.rules': 'Dynamic rules',
+  'menu.forms.real': 'Real form',
 
   //
   'app.home.introduce': 'introduce',
