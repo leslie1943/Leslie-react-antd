@@ -65,6 +65,19 @@ export default {
   'menu.antd.checkbox': 'Antd checkbox',
   'menu.antd.cascader': 'Antd cascader',
   'menu.antd.datepicker': 'Antd date picker',
+  'menu.antd.form': 'Antd form',
+  'menu.forms.custom': 'Custom form',
+  'menu.forms.raw': 'Raw form',
+  'menu.forms.validate': 'Validate form',
+
+  // forms
+  'menu.forms': 'Antd forms',
+  'menu.forms.horizontal': 'Horizontal form',
+  'menu.forms.normal': 'Normal form',
+  'menu.forms.advanced': 'Advanced form',
+  'menu.forms.collection': 'Collection form',
+  'menu.forms.dynamic': 'Dynamic form',
+  'menu.forms.time': 'Date time form',
 
 
   // -------------- the code of Leslie demo.

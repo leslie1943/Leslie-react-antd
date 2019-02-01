@@ -294,3 +294,30 @@
   
    ***/
   ```
+
+  + Form property
+  ```javascript
+  /***
+   * isFieldTouched: 判断一个输入控件是否经历过 getFieldDecorator 的值收集时机 options.trigger	
+   
+        const userNameError = isFieldTouched('userName') && getFieldError('userName');
+        console.info(isFieldTouched('userName')); // undefined
+        console.info(getFieldError('userName')); // ["Please input your username!"]
+
+    ------------------------------------------ 🚀🚀🚀🚀🚀  ------------------------------------------
+
+   * validateStatus: 校验状态，如不设置，则会根据校验规则自动生成，可选：'success' 'warning' 'error' 'validating'
+
+                    <Form.Item
+                        validateStatus={userNameError ? 'error' : ''}
+                        help={userNameError || ''}>
+                        {getFieldDecorator('userName', {
+                            rules: [{ required: true, message: 'Please input your username!' }]
+                        })(
+                            <Input prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }}></Icon>} placeholder="Username"></Input>
+                        )}
+                    </Form.Item>
+    ------------------------------------------ 🚀🚀🚀🚀🚀  ------------------------------------------
+
+   ***/
+  ```

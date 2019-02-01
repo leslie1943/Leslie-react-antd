@@ -18,31 +18,9 @@ export default [
     authority: ['admin', 'user'],
     routes: [
       // dashboard
-      // { path: '/', redirect: '/dashboard/analysis' },
       // { path: '/', redirect: '/publish/send-mr' },
       { path: '/', redirect: '/antd/mention' },
-      // {
-      //   path: '/dashboard',
-      //   name: 'dashboard',
-      //   icon: 'dashboard',
-      //   routes: [
-      //     {
-      //       path: '/dashboard/analysis',
-      //       name: 'analysis',
-      //       component: './Dashboard/Analysis',
-      //     },
-      //     {
-      //       path: '/dashboard/monitor',
-      //       name: 'monitor',
-      //       component: './Dashboard/Monitor',
-      //     },
-      //     {
-      //       path: '/dashboard/workplace',
-      //       name: 'workplace',
-      //       component: './Dashboard/Workplace',
-      //     },
-      //   ],
-      // },
+
       // -------------- the code of Leslie demo
       // {
       //   path: '/demo',
@@ -211,138 +189,72 @@ export default [
             name: 'datepicker',
             icon: 'play-circle',
             component: './Antd/DatePickerDemo',
-          }
+          },
         ],
       },
-      // forms
-      // {
-      //   path: '/form',
-      //   icon: 'form',
-      //   name: 'form',
-      //   routes: [
-      //     {
-      //       path: '/form/basic-form',
-      //       name: 'basicform',
-      //       component: './Forms/BasicForm',
-      //     },
-      //     {
-      //       path: '/form/step-form',
-      //       name: 'stepform',
-      //       component: './Forms/StepForm',
-      //       hideChildrenInMenu: true,
-      //       routes: [
-      //         {
-      //           path: '/form/step-form',
-      //           name: 'stepform',
-      //           redirect: '/form/step-form/info',
-      //         },
-      //         {
-      //           path: '/form/step-form/info',
-      //           name: 'info',
-      //           component: './Forms/StepForm/Step1',
-      //         },
-      //         {
-      //           path: '/form/step-form/confirm',
-      //           name: 'confirm',
-      //           component: './Forms/StepForm/Step2',
-      //         },
-      //         {
-      //           path: '/form/step-form/result',
-      //           name: 'result',
-      //           component: './Forms/StepForm/Step3',
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       path: '/form/advanced-form',
-      //       name: 'advancedform',
-      //       authority: ['admin'],
-      //       component: './Forms/AdvancedForm',
-      //     },
-      //   ],
-      // },
-      // list
-      // {
-      //   path: '/list',
-      //   icon: 'table',
-      //   name: 'list',
-      //   routes: [
-      //     {
-      //       path: '/list/table-list',
-      //       name: 'searchtable',
-      //       component: './List/TableList',
-      //     },
-      //     {
-      //       path: '/list/basic-list',
-      //       name: 'basiclist',
-      //       component: './List/BasicList',
-      //     },
-      //     {
-      //       path: '/list/card-list',
-      //       name: 'cardlist',
-      //       component: './List/CardList',
-      //     },
-      //     {
-      //       path: '/list/search',
-      //       name: 'searchlist',
-      //       component: './List/List',
-      //       routes: [
-      //         {
-      //           path: '/list/search',
-      //           redirect: '/list/search/articles',
-      //         },
-      //         {
-      //           path: '/list/search/articles',
-      //           name: 'articles',
-      //           component: './List/Articles',
-      //         },
-      //         {
-      //           path: '/list/search/projects',
-      //           name: 'projects',
-      //           component: './List/Projects',
-      //         },
-      //         {
-      //           path: '/list/search/applications',
-      //           name: 'applications',
-      //           component: './List/Applications',
-      //         },
-      //       ],
-      //     },
-      //   ],
-      // },
-      // {
-      //   path: '/profile',
-      //   name: 'profile',
-      //   icon: 'profile',
-      //   routes: [
-      //     // profile
-      //     {
-      //       path: '/profile/basic',
-      //       name: 'basic',
-      //       component: './Profile/BasicProfile',
-      //     },
-      //     {
-      //       path: '/profile/advanced',
-      //       name: 'advanced',
-      //       authority: ['admin'],
-      //       component: './Profile/AdvancedProfile',
-      //     },
-      //   ],
-      // },
-      // {
-      //   name: 'result',
-      //   icon: 'check-circle-o',
-      //   path: '/result',
-      //   routes: [
-      //     // result
-      //     {
-      //       path: '/result/success',
-      //       name: 'success',
-      //       component: './Result/Success',
-      //     },
-      //     { path: '/result/fail', name: 'fail', component: './Result/Error' },
-      //   ],
-      // },
+      // antd forms
+      {
+        path: '/forms',
+        name: 'forms',
+        icon: 'form',
+        routes: [
+          {
+            path: '/forms/horizontal',
+            name: 'horizontal',
+            icon: 'border-horizontal',
+            component: './AntdForms/HorizontalLoginForm',
+          },
+          {
+            path: '/forms/normal',
+            name: 'normal',
+            icon: 'hdd',
+            component: './AntdForms/NormalLoginForm',
+          },
+          {
+            path: '/forms/advanced',
+            name: 'advanced',
+            icon: 'hdd',
+            component: './AntdForms/AdvancedSearchForm',
+          },
+          {
+            path: '/forms/collection',
+            name: 'collection',
+            icon: 'pic-center',
+            component: './AntdForms/CollectionCreateForm',
+          },
+          {
+            path: '/forms/dynamic',
+            name: 'dynamic',
+            icon: 'pic-center',
+            component: './AntdForms/DynamicFieldsForm',
+          },
+          {
+            path: '/forms/time',
+            name: 'time',
+            icon: 'clock-circle',
+            component: './AntdForms/TimeRelatedForm',
+          },
+          {
+            path: '/forms/custom',
+            name: 'custom',
+            icon: 'customer-service',
+            component: './AntdForms/CustomForm',
+          },
+          {
+            path: '/forms/raw',
+            name: 'raw',
+            icon: 'bulb',
+            component: './AntdForms/RawForm',
+          },
+          {
+            path: '/forms/validate',
+            name: 'validate',
+            icon: 'bulb',
+            component: './AntdForms/ValidateForm',
+          },
+        ],
+      },
+      // system
       {
         name: 'exception',
         icon: 'warning',
@@ -373,66 +285,6 @@ export default [
           },
         ],
       },
-      // {
-      //   name: 'account',
-      //   icon: 'user',
-      //   path: '/account',
-      //   routes: [
-      //     {
-      //       path: '/account/center',
-      //       name: 'center',
-      //       component: './Account/Center/Center',
-      //       routes: [
-      //         {
-      //           path: '/account/center',
-      //           redirect: '/account/center/articles',
-      //         },
-      //         {
-      //           path: '/account/center/articles',
-      //           component: './Account/Center/Articles',
-      //         },
-      //         {
-      //           path: '/account/center/applications',
-      //           component: './Account/Center/Applications',
-      //         },
-      //         {
-      //           path: '/account/center/projects',
-      //           component: './Account/Center/Projects',
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       path: '/account/settings',
-      //       name: 'settings',
-      //       component: './Account/Settings/Info',
-      //       routes: [
-      //         {
-      //           path: '/account/settings',
-      //           redirect: '/account/settings/base',
-      //         },
-      //         {
-      //           path: '/account/settings/base',
-      //           component: './Account/Settings/BaseView',
-      //         },
-      //         {
-      //           path: '/account/settings/security',
-      //           component: './Account/Settings/SecurityView',
-      //         },
-      //         {
-      //           path: '/account/settings/binding',
-      //           component: './Account/Settings/BindingView',
-      //         },
-      //         {
-      //           path: '/account/settings/notification',
-      //           component: './Account/Settings/NotificationView',
-      //         },
-      //       ],
-      //     },
-      //   ],
-      // },
-      // {
-      //   component: '404',
-      // },
     ],
   },
 ];
