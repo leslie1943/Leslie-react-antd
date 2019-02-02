@@ -190,6 +190,12 @@ export default [
             icon: 'play-circle',
             component: './Antd/DatePickerDemo',
           },
+          {
+            path: 'antd/input-number',
+            name: 'inputnumber',
+            icon: 'play-circle',
+            component: './Antd/InputNumberDemo',
+          },
         ],
       },
       // antd forms

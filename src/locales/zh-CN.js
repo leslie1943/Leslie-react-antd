@@ -65,6 +65,9 @@ export default {
   'menu.antd.checkbox': 'Antd checkbox',
   'menu.antd.cascader': 'Antd cascader',
   'menu.antd.datepicker': 'Antd date picker',
+  'menu.antd.inputnumber': 'Antd input number',
+
+  // form
   'menu.antd.form': 'Antd form',
   'menu.forms.custom': 'Custom form',
   'menu.forms.raw': 'Raw form',
