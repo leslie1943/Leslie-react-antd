@@ -196,6 +196,12 @@ export default [
             icon: 'play-circle',
             component: './Antd/InputNumberDemo',
           },
+          {
+            path: 'antd/rate',
+            name: 'rate',
+            icon: 'play-circle',
+            component: './Antd/RateDemo',
+          },
         ],
       },
       // antd forms
