@@ -67,6 +67,8 @@ export default {
   'menu.antd.datepicker': 'Antd date picker',
   'menu.antd.inputnumber': 'Antd input number',
   'menu.antd.rate': 'Antd rate',
+  'menu.antd.switch': 'Antd switch',
+
 
   // form
   'menu.antd.form': 'Antd form',

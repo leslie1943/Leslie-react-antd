@@ -202,6 +202,12 @@ export default [
             icon: 'play-circle',
             component: './Antd/RateDemo',
           },
+          {
+            path: 'antd/switch',
+            name: 'switch',
+            icon: 'play-circle',
+            component: './Antd/SwitchDemo',
+          },
         ],
       },
       // antd forms
