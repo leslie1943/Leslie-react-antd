@@ -208,6 +208,12 @@ export default [
             icon: 'play-circle',
             component: './Antd/SwitchDemo',
           },
+          {
+            path: 'antd/carousel',
+            name: 'carousel',
+            icon: 'play-circle',
+            component: './Antd/CarouselDemo',
+          },
         ],
       },
       // antd forms
