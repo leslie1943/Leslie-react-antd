@@ -214,6 +214,12 @@ export default [
             icon: 'play-circle',
             component: './Antd/CarouselDemo',
           },
+          {
+            path: 'antd/input',
+            name: 'input',
+            icon: 'play-circle',
+            component: './Antd/InputDemo',
+          },
         ],
       },
       // antd forms

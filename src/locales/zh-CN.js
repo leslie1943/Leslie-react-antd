@@ -69,6 +69,7 @@ export default {
   'menu.antd.rate': 'Antd rate',
   'menu.antd.switch': 'Antd switch',
   'menu.antd.carousel': 'Antd Carousel',
+  'menu.antd.input': 'Antd Input',
 
 
   // form
