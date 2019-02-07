@@ -220,6 +220,12 @@ export default [
             icon: 'play-circle',
             component: './Antd/InputDemo',
           },
+          {
+            path: 'antd/radio',
+            name: 'radio',
+            icon: 'play-circle',
+            component: './Antd/RadioDemo',
+          },
         ],
       },
       // antd forms
