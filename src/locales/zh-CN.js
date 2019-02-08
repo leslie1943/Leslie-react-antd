@@ -71,6 +71,7 @@ export default {
   'menu.antd.carousel': 'Antd Carousel',
   'menu.antd.input': 'Antd Input',
   'menu.antd.radio': 'Antd Radio',
+  'menu.antd.slider': 'Antd Slider',
 
   // form
   'menu.antd.form': 'Antd form',

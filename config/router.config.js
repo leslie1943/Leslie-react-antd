@@ -226,6 +226,12 @@ export default [
             icon: 'play-circle',
             component: './Antd/RadioDemo',
           },
+          {
+            path: 'antd/slider',
+            name: 'slider',
+            icon: 'play-circle',
+            component: './Antd/SliderDemo',
+          },
         ],
       },
       // antd forms
