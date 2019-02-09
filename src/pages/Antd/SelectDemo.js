@@ -134,7 +134,7 @@ class ExtendSelect extends Component {
 }
 
 @Form.create()
-class CascaderDemo extends Component {
+class SelectDemo extends Component {
   state = {
     cities: cityData[provinceData[0]],
     secondCity: cityData[provinceData[0]][0]
@@ -252,4 +252,4 @@ class CascaderDemo extends Component {
   }
 }
 
-export default CascaderDemo
+export default SelectDemo

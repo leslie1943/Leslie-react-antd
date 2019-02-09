@@ -73,6 +73,7 @@ export default {
   'menu.antd.radio': 'Antd Radio',
   'menu.antd.slider': 'Antd Slider',
   'menu.antd.select': 'Antd Select',
+  'menu.antd.treeSelect': 'Antd TreeSelect',
 
   // form
   'menu.antd.form': 'Antd form',

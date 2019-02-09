@@ -238,6 +238,12 @@ export default [
             icon: 'play-circle',
             component: './Antd/SelectDemo',
           },
+          {
+            path: 'antd/tree-select',
+            name: 'treeSelect',
+            icon: 'play-circle',
+            component: './Antd/TreeSelectDemo',
+          },
         ],
       },
       // antd forms
