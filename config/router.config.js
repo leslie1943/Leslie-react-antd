@@ -232,6 +232,12 @@ export default [
             icon: 'play-circle',
             component: './Antd/SliderDemo',
           },
+          {
+            path: 'antd/select',
+            name: 'select',
+            icon: 'play-circle',
+            component: './Antd/SelectDemo',
+          },
         ],
       },
       // antd forms
