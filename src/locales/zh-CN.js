@@ -74,6 +74,9 @@ export default {
   'menu.antd.slider': 'Antd Slider',
   'menu.antd.select': 'Antd Select',
   'menu.antd.treeSelect': 'Antd TreeSelect',
+  'menu.antd.transfer': 'Antd Transfer',
+  'menu.antd.timePicker': 'Antd TimePicker',
+  'menu.antd.upload': 'Antd Upload',
 
   // form
   'menu.antd.form': 'Antd form',

@@ -243,6 +243,21 @@ export default [
             name: 'treeSelect',
             icon: 'play-circle',
             component: './Antd/TreeSelectDemo',
+          }, {
+            path: 'antd/transfer',
+            name: 'transfer',
+            icon: 'play-circle',
+            component: './Antd/TransferDemo',
+          }, {
+            path: 'antd/time-picker',
+            name: 'timePicker',
+            icon: 'play-circle',
+            component: './Antd/TimePickerDemo',
+          }, {
+            path: 'antd/upload',
+            name: 'upload',
+            icon: 'play-circle',
+            component: './Antd/UploadDemo',
           },
         ],
       },
