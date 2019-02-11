@@ -77,6 +77,7 @@ export default {
   'menu.antd.transfer': 'Antd Transfer',
   'menu.antd.timePicker': 'Antd TimePicker',
   'menu.antd.upload': 'Antd Upload',
+  'menu.antd.avatar': 'Antd avatar',
 
   // form
   'menu.antd.form': 'Antd form',

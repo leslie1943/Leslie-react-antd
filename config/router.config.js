@@ -258,6 +258,11 @@ export default [
             name: 'upload',
             icon: 'play-circle',
             component: './Antd/UploadDemo',
+          }, {
+            path: 'antd/avatar',
+            name: 'avatar',
+            icon: 'play-circle',
+            component: './Antd/AvatarDemo',
           },
         ],
       },
