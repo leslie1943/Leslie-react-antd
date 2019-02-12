@@ -273,6 +273,10 @@ class DraggerDemo extends Component {
   }
 }
 
+// 核心思想
+// 1: 操作文件时,beforeUpload返回false,不执行上传动作,但记录上传的文件.
+// 2: 当操作的文件个数大于0个时,可执行手动上传.
+// 3: 使用reqwest(ajax)请求发送数据
 class ManuallyDemo extends Component {
   state = {
     fileList: [],
@@ -294,7 +298,7 @@ class ManuallyDemo extends Component {
       method: 'post',
       processData: false,
       data: formData,
-      // success
+      // success: 清空待上传的文件并修改loading
       success: () => {
         this.setState({
           fileList: [],
@@ -302,7 +306,7 @@ class ManuallyDemo extends Component {
         })
         message.success('Upload successfully.')
       },
-      // error
+      // error: 保留待上传文件并修改loading
       error: () => {
         this.setState({
           uploading: false
@@ -326,7 +330,7 @@ class ManuallyDemo extends Component {
           }
         })
       },
-      //before upload
+      //before upload: 获取上传前的文件
       beforeUpload: (file) => {
         console.info(file)
         this.setState(state => ({

@@ -321,3 +321,21 @@
 
    ***/
   ```
+
+    + dispatch & callback
+  ```javascript
+       this.props.dispatch({
+        type: 'namespace/effectName',
+        payload:{
+          params:paramss
+        },
+        callback:(response) => {
+          if(response && response.result == true){
+            message.success("医院数据同步成功!");
+            this.handleCancel();
+          }else{
+            message.error("医院数据同步失败!");
+          }
+        }
+      });
+  ```

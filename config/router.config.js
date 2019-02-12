@@ -263,6 +263,11 @@ export default [
             name: 'avatar',
             icon: 'play-circle',
             component: './Antd/AvatarDemo',
+          }, {
+            path: 'antd/badge',
+            name: 'badge',
+            icon: 'play-circle',
+            component: './Antd/BadgeDemo',
           },
         ],
       },
