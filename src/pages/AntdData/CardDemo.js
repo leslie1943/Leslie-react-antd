@@ -185,8 +185,6 @@ class MoreContentCard extends Component {
             ></Meta>
           </Skeleton>
         </Card>
-
-
       </div>
     )
   }
