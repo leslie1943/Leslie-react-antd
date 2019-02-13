@@ -84,6 +84,7 @@ export default {
   'menu.data.comment': 'Antd comment',
   'menu.data.collapse': 'Antd collapse',
   'menu.data.card': 'Antd card',
+  'menu.data.calendar': 'Antd calendar',
 
   // forms
   'menu.forms': 'Antd forms',

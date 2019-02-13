@@ -166,8 +166,8 @@ class MoreContentCard extends Component {
         >
           <Meta
             avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-            title="Card title"
-            description="this is description"
+            title="Card title in Meta"
+            description="this is description in Meta"
           ></Meta>
         </Card>
 
@@ -180,8 +180,8 @@ class MoreContentCard extends Component {
           <Skeleton loading={loading} avatar active>
             <Meta
               avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
-              title="Card title"
-              description="this is description"
+              title="Card title "
+              description="this is description in Skeleton's Meta & with avatar"
             ></Meta>
           </Skeleton>
         </Card>

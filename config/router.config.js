@@ -294,6 +294,12 @@ export default [
             name: 'card',
             icon: 'play-circle',
             component: './AntdData/CardDemo',
+          },
+          {
+            path: 'data/calendar',
+            name: 'calendar',
+            icon: 'play-circle',
+            component: './AntdData/CalendarDemo',
           }
         ]
       },
