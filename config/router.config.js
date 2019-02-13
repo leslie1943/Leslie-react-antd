@@ -269,6 +269,18 @@ export default [
             icon: 'play-circle',
             component: './Antd/BadgeDemo',
           },
+          {
+            path: 'antd/comment',
+            name: 'comment',
+            icon: 'play-circle',
+            component: './Antd/CommentDemo',
+          },
+          {
+            path: 'antd/collapse',
+            name: 'collapse',
+            icon: 'play-circle',
+            component: './Antd/CollapseDemo',
+          },
         ],
       },
       // antd forms

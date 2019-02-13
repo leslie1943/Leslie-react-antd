@@ -79,6 +79,8 @@ export default {
   'menu.antd.upload': 'Antd Upload',
   'menu.antd.avatar': 'Antd avatar',
   'menu.antd.badge': 'Antd badge',
+  'menu.antd.comment': 'Antd comment',
+  'menu.antd.collapse': 'Antd collapse',
 
 
   // forms
