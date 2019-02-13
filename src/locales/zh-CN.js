@@ -68,7 +68,6 @@ export default {
   'menu.antd.inputnumber': 'Antd input number',
   'menu.antd.rate': 'Antd rate',
   'menu.antd.switch': 'Antd switch',
-  'menu.antd.carousel': 'Antd Carousel',
   'menu.antd.input': 'Antd Input',
   'menu.antd.radio': 'Antd Radio',
   'menu.antd.slider': 'Antd Slider',
@@ -77,10 +76,14 @@ export default {
   'menu.antd.transfer': 'Antd Transfer',
   'menu.antd.timePicker': 'Antd TimePicker',
   'menu.antd.upload': 'Antd Upload',
-  'menu.antd.avatar': 'Antd avatar',
-  'menu.antd.badge': 'Antd badge',
-  'menu.antd.comment': 'Antd comment',
-  'menu.antd.collapse': 'Antd collapse',
+  // data
+  'menu.data.carousel': 'Antd Carousel',
+  'menu.data': 'Antd data',
+  'menu.data.avatar': 'Antd avatar',
+  'menu.data.badge': 'Antd badge',
+  'menu.data.comment': 'Antd comment',
+  'menu.data.collapse': 'Antd collapse',
+  'menu.data.card': 'Antd card',
 
   // form
   'menu.antd.form': 'Antd form',
@@ -101,6 +104,9 @@ export default {
   'menu.forms.dynamic': 'Dynamic form',
   'menu.forms.time': 'Date time form',
 
+  //Node
+  'menu.node': 'NodeJS',
+  'menu.node.path': 'Node path',
 
   // -------------- the code of Leslie demo.
   // 'menu.demo': 'Demo',

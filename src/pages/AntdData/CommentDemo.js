@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'dva';
 import moment from 'moment';
-import { Comment, Icon, Tooltip, Avatar } from 'antd';
+import { Form, Icon, Tooltip, Avatar } from 'antd';
 import PageHeaderWrapper from '@/components/PageHeaderWrapper';
 import layout from "@/utils/layout";
 import styles from './BadgeDemo.less'
@@ -47,6 +47,9 @@ class CommentDemo extends Component {
     ]
     return (
       <PageHeaderWrapper title="Antd demo - comment" content="comment">
+
+        <Icon type="home"> <a href="https://gitter.im/ant-design/ant-design">Antd gitter room</a></Icon>
+        <p>Module not found: Can't resolve 'antd/es/comment </p>
         {/* <Comment actions={actions}
           author={<a>Su Zhen</a>}
           avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" alt="handsome" />}

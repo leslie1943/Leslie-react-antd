@@ -110,7 +110,8 @@ class CollapseDemo extends Component {
         </Collapse>
 
         <Divider>隐藏Panel箭头</Divider>
-        <Collapse onChange={this.callback}>
+        {/* destroyInactivePanel: 隐藏还是销毁 */}
+        <Collapse destroyInactivePanel={true} onChange={this.callback}>
           <Panel header="This is panel header with arrow icon" key="1"><p>{text}</p></Panel>
           <Panel showArrow={false} header="This is panel header without arrow icon" key="2"><p>{text}</p></Panel>
         </Collapse>

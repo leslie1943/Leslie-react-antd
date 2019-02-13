@@ -209,12 +209,6 @@ export default [
             component: './Antd/SwitchDemo',
           },
           {
-            path: 'antd/carousel',
-            name: 'carousel',
-            icon: 'play-circle',
-            component: './Antd/CarouselDemo',
-          },
-          {
             path: 'antd/input',
             name: 'input',
             icon: 'play-circle',
@@ -258,30 +252,50 @@ export default [
             name: 'upload',
             icon: 'play-circle',
             component: './Antd/UploadDemo',
+          }
+        ],
+      },
+      // data
+      {
+        path: '/data',
+        name: 'data',
+        icon: 'ant-design',
+        routes: [
+          {
+            path: 'data/carousel',
+            name: 'carousel',
+            icon: 'play-circle',
+            component: './AntdData/CarouselDemo',
           }, {
-            path: 'antd/avatar',
+            path: 'data/avatar',
             name: 'avatar',
             icon: 'play-circle',
-            component: './Antd/AvatarDemo',
+            component: './AntdData/AvatarDemo',
           }, {
-            path: 'antd/badge',
+            path: 'data/badge',
             name: 'badge',
             icon: 'play-circle',
-            component: './Antd/BadgeDemo',
+            component: './AntdData/BadgeDemo',
           },
           {
-            path: 'antd/comment',
+            path: 'data/comment',
             name: 'comment',
             icon: 'play-circle',
-            component: './Antd/CommentDemo',
+            component: './AntdData/CommentDemo',
           },
           {
-            path: 'antd/collapse',
+            path: 'data/collapse',
             name: 'collapse',
             icon: 'play-circle',
-            component: './Antd/CollapseDemo',
+            component: './AntdData/CollapseDemo',
           },
-        ],
+          {
+            path: 'data/card',
+            name: 'card',
+            icon: 'play-circle',
+            component: './AntdData/CardDemo',
+          }
+        ]
       },
       // antd forms
       {
@@ -368,6 +382,20 @@ export default [
             component: './AntdForms/RealForm',
           },
         ],
+      },
+      // node
+      {
+        path: 'node',
+        name: 'node',
+        icon: 'menu',
+        routes: [
+          {
+            path: '/node/path',
+            name: 'path',
+            icon: 'menu-unfold',
+            component: './Node/PathDemo',
+          }
+        ]
       },
       // system
       {
