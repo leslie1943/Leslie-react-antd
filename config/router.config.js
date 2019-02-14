@@ -311,6 +311,22 @@ export default [
             name: 'empty',
             icon: 'play-circle',
             component: './AntdData/EmptyDemo',
+          }, {
+            path: 'data/list',
+            name: 'list',
+            icon: 'play-circle',
+            component: './AntdData/ListDemo',
+          }, {
+            path: 'data/infinite-list',
+            name: 'infiniteList',
+            icon: 'play-circle',
+            component: './AntdData/ListInfiniteScrollDemo',
+          },
+          {
+            path: 'data/virtualize-list',
+            name: 'virtualizeList',
+            icon: 'play-circle',
+            component: './AntdData/VirtualizedDemo',
           },
         ],
       },

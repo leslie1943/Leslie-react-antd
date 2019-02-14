@@ -86,6 +86,9 @@ export default {
   'menu.data.card': 'Antd card',
   'menu.data.calendar': 'Antd calendar',
   'menu.data.empty': 'Antd empty',
+  'menu.data.list': 'Antd list',
+  'menu.data.infiniteList': 'Antd infinite List',
+  'menu.data.virtualizeList': 'Antd virtualize List',
 
   // forms
   'menu.forms': 'Antd forms',
