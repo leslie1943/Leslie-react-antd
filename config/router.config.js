@@ -328,6 +328,12 @@ export default [
             icon: 'play-circle',
             component: './AntdData/VirtualizedDemo',
           },
+          {
+            path: 'data/popover',
+            name: 'popover',
+            icon: 'play-circle',
+            component: './AntdData/PopoverDemo',
+          },
         ],
       },
       // antd forms

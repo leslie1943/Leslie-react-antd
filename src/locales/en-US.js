@@ -89,6 +89,7 @@ export default {
   'menu.data.list': 'Antd list',
   'menu.data.infiniteList': 'Antd infinite List',
   'menu.data.virtualizeList': 'Antd virtualize List',
+  'menu.data.popover': 'Antd popover',
 
   // forms
   'menu.forms': 'Antd forms',
