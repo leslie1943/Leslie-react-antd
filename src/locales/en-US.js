@@ -85,6 +85,7 @@ export default {
   'menu.data.collapse': 'Antd collapse',
   'menu.data.card': 'Antd card',
   'menu.data.calendar': 'Antd calendar',
+  'menu.data.empty': 'Antd empty',
 
   // forms
   'menu.forms': 'Antd forms',

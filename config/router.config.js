@@ -237,22 +237,25 @@ export default [
             name: 'treeSelect',
             icon: 'play-circle',
             component: './Antd/TreeSelectDemo',
-          }, {
+          },
+          {
             path: 'antd/transfer',
             name: 'transfer',
             icon: 'play-circle',
             component: './Antd/TransferDemo',
-          }, {
+          },
+          {
             path: 'antd/time-picker',
             name: 'timePicker',
             icon: 'play-circle',
             component: './Antd/TimePickerDemo',
-          }, {
+          },
+          {
             path: 'antd/upload',
             name: 'upload',
             icon: 'play-circle',
             component: './Antd/UploadDemo',
-          }
+          },
         ],
       },
       // data
@@ -266,12 +269,14 @@ export default [
             name: 'carousel',
             icon: 'play-circle',
             component: './AntdData/CarouselDemo',
-          }, {
+          },
+          {
             path: 'data/avatar',
             name: 'avatar',
             icon: 'play-circle',
             component: './AntdData/AvatarDemo',
-          }, {
+          },
+          {
             path: 'data/badge',
             name: 'badge',
             icon: 'play-circle',
@@ -300,8 +305,14 @@ export default [
             name: 'calendar',
             icon: 'play-circle',
             component: './AntdData/CalendarDemo',
-          }
-        ]
+          },
+          {
+            path: 'data/empty',
+            name: 'empty',
+            icon: 'play-circle',
+            component: './AntdData/EmptyDemo',
+          },
+        ],
       },
       // antd forms
       {
@@ -400,8 +411,8 @@ export default [
             name: 'path',
             icon: 'menu-unfold',
             component: './Node/PathDemo',
-          }
-        ]
+          },
+        ],
       },
       // system
       {
