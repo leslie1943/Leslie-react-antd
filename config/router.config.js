@@ -333,6 +333,11 @@ export default [
             name: 'popover',
             icon: 'play-circle',
             component: './AntdData/PopoverDemo',
+          }, {
+            path: 'data/statistic',
+            name: 'statistic',
+            icon: 'play-circle',
+            component: './AntdData/StatisticDemo',
           },
         ],
       },

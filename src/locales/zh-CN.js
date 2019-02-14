@@ -90,6 +90,7 @@ export default {
   'menu.data.infiniteList': 'Antd infinite List',
   'menu.data.virtualizeList': 'Antd virtualize List',
   'menu.data.popover': 'Antd popover',
+  'menu.data.statistic': 'Antd statistic',
 
   // form
   'menu.antd.form': 'Antd form',
