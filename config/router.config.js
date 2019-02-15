@@ -338,6 +338,21 @@ export default [
             name: 'statistic',
             icon: 'play-circle',
             component: './AntdData/StatisticDemo',
+          }, {
+            path: 'data/tree',
+            name: 'tree',
+            icon: 'play-circle',
+            component: './AntdData/TreeDemo',
+          }, {
+            path: 'data/tooltip',
+            name: 'tooltip',
+            icon: 'play-circle',
+            component: './AntdData/ToolTipDemo',
+          }, {
+            path: 'data/timeline',
+            name: 'timeline',
+            icon: 'play-circle',
+            component: './AntdData/TimelineDemo',
           },
         ],
       },

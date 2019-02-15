@@ -91,6 +91,9 @@ export default {
   'menu.data.virtualizeList': 'Antd virtualize List',
   'menu.data.popover': 'Antd popover',
   'menu.data.statistic': 'Antd statistic',
+  'menu.data.tree': 'Antd tree',
+  'menu.data.tooltip': 'Antd tooltip',
+  'menu.data.timeline': 'Antd timeline',
 
   // forms
   'menu.forms': 'Antd forms',
