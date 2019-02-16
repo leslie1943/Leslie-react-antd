@@ -94,6 +94,8 @@ export default {
   'menu.data.tree': 'Antd tree',
   'menu.data.tooltip': 'Antd tooltip',
   'menu.data.timeline': 'Antd timeline',
+  'menu.data.test': 'Antd test',
+  'menu.data.tag': 'Antd tag',
 
   // forms
   'menu.forms': 'Antd forms',

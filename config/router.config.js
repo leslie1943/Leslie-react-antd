@@ -354,6 +354,17 @@ export default [
             icon: 'play-circle',
             component: './AntdData/TimelineDemo',
           },
+          {
+            path: 'data/test',
+            name: 'test',
+            icon: 'play-circle',
+            component: './AntdData/TestDemo',
+          }, {
+            path: 'data/Tag',
+            name: 'tag',
+            icon: 'play-circle',
+            component: './AntdData/TagDemo',
+          },
         ],
       },
       // antd forms
