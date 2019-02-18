@@ -96,7 +96,11 @@ export default {
   'menu.data.timeline': 'Antd timeline',
   'menu.data.test': 'Antd test',
   'menu.data.tag': 'Antd tag',
+  'menu.data.tabs': 'Antd tabs',
 
+  // feedback
+  'menu.feedback': 'Antd Feedback',
+  'menu.feedback.alert': 'Antd Feedback alert ',
   // forms
   'menu.forms': 'Antd forms',
   'menu.forms.horizontal': 'Horizontal form',

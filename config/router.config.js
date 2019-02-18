@@ -360,12 +360,29 @@ export default [
             icon: 'play-circle',
             component: './AntdData/TestDemo',
           }, {
-            path: 'data/Tag',
+            path: 'data/tag',
             name: 'tag',
             icon: 'play-circle',
             component: './AntdData/TagDemo',
+          }, {
+            path: 'data/tabs',
+            name: 'tabs',
+            icon: 'play-circle',
+            component: './AntdData/TabsDemo',
           },
         ],
+      },
+      {
+        path: '/feedback',
+        name: 'feedback',
+        icon: 'form',
+        routes: [
+          {
+            path: '/feedback/alert',
+            name: 'alert',
+            icon: 'and-design',
+            component: './AntdFeedback/AlertDemo'
+          }]
       },
       // antd forms
       {
