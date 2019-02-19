@@ -100,7 +100,9 @@ export default {
 
   // feedback
   'menu.feedback': 'Antd Feedback',
-  'menu.feedback.alert': 'Antd Feedback alert ',
+  'menu.feedback.alert': 'Antd  alert ',
+  'menu.feedback.drawer': 'Antd  drawer ',
+
   // forms
   'menu.forms': 'Antd forms',
   'menu.forms.horizontal': 'Horizontal form',

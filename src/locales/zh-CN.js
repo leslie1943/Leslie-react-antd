@@ -97,9 +97,12 @@ export default {
   'menu.data.test': 'Antd test',
   'menu.data.tag': 'Antd tag',
   'menu.data.tabs': 'Antd tabs',
+
   // feedback
   'menu.feedback': 'Antd Feedback',
-  'menu.feedback.alert': 'Antd Feedback alert ',
+  'menu.feedback.alert': 'Antd  alert ',
+  'menu.feedback.drawer': 'Antd  drawer ',
+
   // form
   'menu.antd.form': 'Antd form',
   'menu.forms.custom': 'Custom form',

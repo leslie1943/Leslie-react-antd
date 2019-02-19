@@ -382,7 +382,14 @@ export default [
             name: 'alert',
             icon: 'and-design',
             component: './AntdFeedback/AlertDemo'
-          }]
+          },
+          {
+            path: '/feedback/drawer',
+            name: 'drawer',
+            icon: 'and-design',
+            component: './AntdFeedback/DrawerDemo'
+          }
+        ]
       },
       // antd forms
       {
