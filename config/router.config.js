@@ -388,6 +388,11 @@ export default [
             name: 'drawer',
             icon: 'and-design',
             component: './AntdFeedback/DrawerDemo'
+          }, {
+            path: '/feedback/modal',
+            name: 'modal',
+            icon: 'and-design',
+            component: './AntdFeedback/ModalDemo'
           }
         ]
       },

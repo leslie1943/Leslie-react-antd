@@ -102,6 +102,7 @@ export default {
   'menu.feedback': 'Antd Feedback',
   'menu.feedback.alert': 'Antd  alert ',
   'menu.feedback.drawer': 'Antd  drawer ',
+  'menu.feedback.modal': 'Antd  modal ',
 
   // form
   'menu.antd.form': 'Antd form',
