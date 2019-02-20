@@ -103,6 +103,10 @@ export default {
   'menu.feedback.alert': 'Antd  alert ',
   'menu.feedback.drawer': 'Antd  drawer ',
   'menu.feedback.modal': 'Antd  modal ',
+  'menu.feedback.message': 'Antd  message ',
+  'menu.feedback.notify': 'Antd  notify ',
+  'menu.feedback.progress': 'Antd  progress ',
+  'menu.feedback.popconfirm': 'Antd  popconfirm ',
 
   // forms
   'menu.forms': 'Antd forms',

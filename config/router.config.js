@@ -393,6 +393,26 @@ export default [
             name: 'modal',
             icon: 'and-design',
             component: './AntdFeedback/ModalDemo'
+          }, {
+            path: '/feedback/message',
+            name: 'message',
+            icon: 'and-design',
+            component: './AntdFeedback/MessageDemo'
+          }, {
+            path: '/feedback/notify',
+            name: 'notify',
+            icon: 'and-design',
+            component: './AntdFeedback/NotifyDemo'
+          }, {
+            path: '/feedback/progress',
+            name: 'progress',
+            icon: 'and-design',
+            component: './AntdFeedback/ProgressDemo'
+          }, {
+            path: '/feedback/popconfirm',
+            name: 'popconfirm',
+            icon: 'and-design',
+            component: './AntdFeedback/PopConfirmDemo'
           }
         ]
       },
