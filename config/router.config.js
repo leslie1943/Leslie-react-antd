@@ -372,6 +372,7 @@ export default [
           },
         ],
       },
+      //feedback
       {
         path: '/feedback',
         name: 'feedback',
@@ -413,7 +414,32 @@ export default [
             name: 'popconfirm',
             icon: 'and-design',
             component: './AntdFeedback/PopConfirmDemo'
+          }, {
+            path: '/feedback/spin',
+            name: 'spin',
+            icon: 'and-design',
+            component: './AntdFeedback/SpinDemo'
+          },
+          {
+            path: '/feedback/skeleton',
+            name: 'skeleton',
+            icon: 'and-design',
+            component: './AntdFeedback/SkeletonDemo'
           }
+        ]
+      },
+      //other
+      {
+        path: '/other',
+        name: 'other',
+        icon: 'form',
+        routes: [
+          {
+            path: '/other/anchor',
+            name: 'anchor',
+            icon: 'and-design',
+            component: './AndtOther/AnchorDemo'
+          },
         ]
       },
       // antd forms

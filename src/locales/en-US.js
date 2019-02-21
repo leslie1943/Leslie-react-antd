@@ -107,6 +107,13 @@ export default {
   'menu.feedback.notify': 'Antd  notify ',
   'menu.feedback.progress': 'Antd  progress ',
   'menu.feedback.popconfirm': 'Antd  popconfirm ',
+  'menu.feedback.spin': 'Antd  spin ',
+  'menu.feedback.skeleton': 'Antd  skeleton ',
+
+  // other
+  'menu.other': 'Antd other ',
+  'menu.other.anchor': 'Antd anchor ',
+
 
   // forms
   'menu.forms': 'Antd forms',
