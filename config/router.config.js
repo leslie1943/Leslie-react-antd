@@ -438,7 +438,7 @@ export default [
             path: '/other/anchor',
             name: 'anchor',
             icon: 'and-design',
-            component: './AndtOther/AnchorDemo'
+            component: './AndtOther/OtherDemo'
           },
         ]
       },
